@@ -9,12 +9,12 @@ let info = {
     }
   },
   description:
-    "I’m a Full-Stack Developer who loves building software that is not only functional but also well-structured and efficient. Collaboration comes naturally, whether it’s with designers, project managers, and other developers, share knowledge openly, learning from different perspectives, and keeping up with the latest tech trends. <br><br>I am a detail oriented person that enjoy solving complex problems. My skill set ranges from architecture design and code development to writing optimized sql scripts. The experiences I've gained in fast-paced environments and university have shaped me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+      "I’m a Full-Stack Developer who loves building software that is not only functional but also well-structured and efficient. Collaboration comes naturally, whether it’s with designers, project managers, and other developers, share knowledge openly, learning from different perspectives, and keeping up with the latest tech trends. <br><br>I am a detail oriented person that enjoy solving complex problems. My skill set ranges from architecture design and code development to writing optimized sql scripts. The experiences I've gained in fast-paced environments and university have shaped me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
   links: {
     linkedin: "https://www.linkedin.com/in/beatrizferreira-software-engineer/",
     github: "https://github.com/beatrizferreirasw",
     resume:
-      "https://github.com/beatrizferreirasw/portfolio/blob/master/src/assets/pdfs/Resume.pdf"
+        "https://github.com/beatrizferreirasw/portfolio/blob/master/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
@@ -24,7 +24,7 @@ let info = {
       degree: "Master’s in Software Engineering",
       gpa: "18/20",
       description:
-        "Specialized in Agile Software and Requirements Engineering, supported by a prestigious scholarship from SONAE and collaborating on a dissertation project mutually beneficial. Also participated in a multidisciplinary project to develop a real-world product for a client.",
+          "Specialized in Agile Software and Requirements Engineering, supported by a prestigious scholarship from Sonae and collaborating on a dissertation project mutually beneficial. Also participated in a multidisciplinary project to develop a real-world product for a client.",
       skills: [
         "Machine Learning",
         "Microservices",
@@ -56,7 +56,7 @@ let info = {
       date: "Sep, 2016 - Jun, 2019",
       degree: "Bachelor’s in Computer Science",
       description:
-        "Learned the fundamentals of Computational Mathematics, explored the entire software development process, and deep dive into database management. Enhanced skills through hands-on projects, laboratories and final internship.",
+          "Learned the fundamentals of Computational Mathematics, explored the entire software development process, and deep dive into database management. Enhanced skills through hands-on projects, laboratories and final internship.",
       skills: [
         "Linear Algebra",
         "Algorithms",
@@ -74,16 +74,16 @@ let info = {
       date: "Oct, 2021 - Present",
       position: "Software architect; Full Stack Developer",
       description:
-        "Migrating a global Logistics transport management system to the web, shifting towards a more cross-functional working approach with DevOps. Actively involved in company initiatives and responsible for onboarding new teams and individuals, focusing on software architecture and web UI development.",
-      skills: ["Java", "Angular", "Oracle", " CI/CD", "Docker", "REST", "Agile", "Jenkins"]
+          "Migrating a global Logistics transport management system to the web, shifting towards a more cross-functional working approach with DevOps. Actively involved in company initiatives and responsible for onboarding new teams and individuals, focusing on software architecture and web UI development.",
+      skills: ["Java", "Oracle", "Docker", "REST", "Agile", "Jenkins", "Angular", "Node.Js", "Enterprise Architect", "Spring Boot", "Hibernate"]
     },
     {
-      name: "BIT SONAE",
+      name: "BIT Sonae",
       place: "Porto",
       date: "Set, 2020 - Jun, 2021",
-      position: "Full Stack Web Developer",
+      position: "Database Administrator; Full Stack Web Developer",
       description:
-        "Implementation of a framework to support data migration between different OutSystems environments. ETL software with automated process, can be run manually or on reoccurring schedules. Data mask, notifications, automatic entity dependencies detection and many more in-built functionalities. ",
+          "Building of a framework from scratch, to support data migration between different OutSystems environments. Created a WebUi and ETL software with automated process, which can be run manually or on reoccurring schedules and includes in-built features such as data mask, notifications, automatic entity dependencies detection and many more. ",
       skills: ["C#", "OutSystems", "JavaScript", "ETL", ".NET", "REST", "SQL Server"]
     },
     {
@@ -92,8 +92,8 @@ let info = {
       date: "Feb, 2019 - Jun, 2019",
       position: "Full Stack Web Developer",
       description:
-        "Replacement of a legacy technology to build data grids and development of a new .NET Web API. The project API retrieve and provide data for the new UI grid.",
-      skills: ["Angular", "Typescript", "SQL Server", ".NET", "Agile", "TFS", "DDD", "SOLID"]
+          "Replacement of a legacy technology to build data grids and development of a new and improved Web API. The project API retrieve and provide financial data for the new UI grid.",
+      skills: ["Angular", "Typescript", "SQL Server", ".NET", "Agile", "TFS", "DDD", "SOLID", "Scrum"]
     }
   ],
   skills: [
@@ -110,18 +110,15 @@ let info = {
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
+      title: "testing frameworks",
       info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
+        "JUnit",
+        "Mockito",
+        "Cypress",
+        "Selenium",
+        "Postman"
       ],
-      icon: "fa fa-cubes"
+      icon: "fa fa-bug"
     },
     {
       title: "web technologies",
@@ -130,56 +127,46 @@ let info = {
     },
     {
       title: "databases",
-      info: ["OracleSQL", "SQLServer", "PostgreSQL", "MySQL" ],
+      info: ["OracleSQL", "SQLServer", "PostgresSQL", "MySQL" ],
       icon: "fa fa-database"
     },
     {
       title: "operating systems & tools",
       info: [
-        "MacOS",
-        "Ubuntu",
         "Windows",
         "Android",
         "Agile",
         "Scrum",
         "JIRA",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
+        "AWS S3",
+        "Spring",
+        "Git",
+        "Bitbucket",
+        "Jenkins"
       ],
       icon: "fas fa-tools"
     },
     {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      title: "design & documentation",
+      info: ["Enterprise Architecture", "UML", "AsciiDoc" , "LaTeX", "Confluence"],
       icon: "fa fa-pencil-square-o"
     }
   ],
   portfolio: [
     {
-      name: "Sheet Recognizer",
+      name: "Udemy - AWS",
       pictures: [
         {
-          img: require("./src/assets/portfolio/msr/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/four.png")
+          img: require("./src/assets/portfolio/aws/aws.jpg")
         }
       ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
-      github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+      technologies: ["AWS  Certified Developer Associate"],
+      category: "AWS",
+      date: "Sep, 2022",
+      github: "",
+      visit: "https://www.udemy.com/certificate/UC-85fe4bfe-b363-4e48-9155-ad0a304aca8b/",
       description:
-        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
+          "This course covers in-depth all the new topics on the AWS Certified Developer Associate DVA-C02 exam. Proficient in AWS fundamentals and services including IAM, EC2, Load Balancing, RDS, serverless architecture, CI/CD deployment, infrastructure as code, monitoring, messaging, and security best practices.",
     },
     {
       name: "Clumpr",
@@ -235,33 +222,45 @@ let info = {
   ],
   portfolio_design: [
     {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
+      name: "SimSaude",
+      title: "SimSaude - Medical Clinic's Calendar",
       pictures: [
         {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
-          title: "MoodBoard"
+          img: require("./src/assets/designs/simsaude/login.png"),
+          title: "Login"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
-          title: "Mockups 1"
+          img: require("./src/assets/designs/simsaude/appointment.png"),
+          title: "Create Appointment"
         },
         {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
-          title: "Mockups 2"
+          img: require("./src/assets/designs/simsaude/calendar.png"),
+          title: "Default Calendar View"
         },
         {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
-          title: "App Elements"
+          img: require("./src/assets/designs/simsaude/calendarEnd.png"),
+          title: "Calendar View - Month"
+        },
+        {
+          img: require("./src/assets/designs/simsaude/appointmentDetails.png"),
+          title: "Appointment Details"
+        },
+        {
+          img: require("./src/assets/designs/simsaude/calendarDay.png"),
+          title: "Calendar View - Day"
+        },
+        {
+          img: require("./src/assets/designs/simsaude/userList.png"),
+          title: "Professionals List"
         }
       ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
+      technologies: ["Java", "Spring Boot", "Hibernate", "React", "PostgreSQL", "Docker" , "Material-Us"],
+      category: "Calendar",
       github: "",
-      date: "May, 2020 - Jun, 2020",
+      date: "May, 2020 - July, 2020",
       visit: "",
       description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+          "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
     },
     {
       name: "Pantree",

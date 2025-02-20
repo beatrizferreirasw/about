@@ -26,7 +26,7 @@
       />
 
       <vue-tabs :activeTextColor="!nightMode ? '#535A5E' : '#dfdfdf'">
-        <v-tab title="development">
+        <v-tab title="certifications">
           <br />
           <div class="row">
             <div
@@ -54,7 +54,7 @@
           </div>
         </v-tab>
 
-        <v-tab title="design">
+        <v-tab title="development">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"

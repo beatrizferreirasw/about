@@ -113,7 +113,7 @@
 
 <script>
 import config from "../../config";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 import Snackbar from "./helpers/Snackbar";
 
@@ -146,9 +146,9 @@ export default {
       }
     },
     sendEmail() {
-      if (!this.email || !this.name || !this.text) {
+      if (!this.email || !this.text) {
         this.showSnackbar = true;
-        this.snackbarMessage = "Please fill all the fields";
+        this.snackbarMessage = "Please fill email and message fields";
         this.snackbarColor = "rgb(212, 149, 97)";
       } else {
         var params = {
@@ -156,6 +156,9 @@ export default {
           from_name: this.name,
           message_html: this.text
         };
+
+        console.log("Params being sent:", params); // Check if values exist
+
 
         emailjs
           .send(
@@ -176,8 +179,7 @@ export default {
             },
             (error) => {
               this.showSnackbar = true;
-              //this.snackbarMessage = "Oops! Something went wrong.";
-              this.snackbarMessage = "Error sending email:" + error;
+              this.snackbarMessage = "Oops! Something went wrong.";
               this.snackbarColor = "rgb(212, 149, 97)";
             }
           );
